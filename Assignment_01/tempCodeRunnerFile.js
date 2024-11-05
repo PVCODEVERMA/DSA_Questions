@@ -1,1 +1,1 @@
-let
+return Array.from(unionSet)
