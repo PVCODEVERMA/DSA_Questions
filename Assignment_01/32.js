@@ -1,5 +1,19 @@
 // Write a code that takes two dictionaries as input and merges then into a single dictionary . if there are common keys the values should be added together.
 
+// let dict1 = {
+//     'apple': 3,
+//     'banana': 2,
+//     'orange': 5
+// };
+
+// let dict2 = {
+//     'banana': 4,
+//     'grape': 7,
+//     'orange': 1
+// };
+
+// Merged Dictionary: { apple: 3, banana: 6, orange: 6, grape: 7 }
+
 function mergeDictionaries(dict1,dict2){
     let mergedDict = { ...dict1};
 
