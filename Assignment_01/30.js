@@ -1,5 +1,11 @@
 // Develop a code that prompts the user to input two sets of string . Then print the symmetric difference of these two sets.
 
+// Enter the first set of string:I am pankaj
+// Enter the second set of string:B.tech cse 4th year
+// Symmetric Difference: [ 'I am pankaj', 'B.tech cse 4th year' ]
+
+
+
 const prompt = require("prompt-sync")({sigint:true});
 
 function symmetricDifference(setA,setB){
